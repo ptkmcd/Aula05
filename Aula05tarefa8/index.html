@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Montante</title>
+</head>
+<body>
+    <h1>Calculadora de Montante</h1>
+    <div>
+        <label for="capital">Capital Inicial (R$):</label>
+        <input type="number" id="capital">
+    </div>
+    <div>
+        <label for="taxaJuros">Taxa de Juros Mensal (%):</label>
+        <input type="number" id="taxaJuros">
+    </div>
+    <div>
+        <label for="tempoMeses">Tempo de Investimento (Meses):</label>
+        <input type="number" id="tempoMeses">
+    </div>
+    <button onclick="calcularMontante()">Calcular Montante</button>
+    <p id="resultado"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
